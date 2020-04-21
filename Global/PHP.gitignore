@@ -1,2 +1,5 @@
 # PHP
 *.phar
+
+# PHP cache file(dev)
+.php_cs.cache
