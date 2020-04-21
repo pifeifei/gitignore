@@ -1,8 +1,10 @@
-# use
+# 使用说明
+
+> 更多 .gitignore 文件：[github/gitignore](https://github.com/github/gitignore) 
 
 
 
-1. Copy the `*.ginignore` file in [github/gitignore](https://github.com/github/gitignore) and put it in the directory: `~/.gitignore_global`
+1. 复制 `*.ginignore` ([github/gitignore](https://github.com/github/gitignore)) 文件到目录: `~/.gitignore_global`，或使用 ln、mklink 做软连接
 
    ```shell
    git clone https://github.com/pifeifei/gitignore
@@ -15,9 +17,9 @@
    mklink /j  %HOMEDRIVE%%HOMEPATH%\.gitignore_global  .gitignore_global
    ```
 
-   
 
-2. Run the following command:
+
+2. 运行以下命令：
 
     ```shell
     # Global Git ignore
@@ -30,4 +32,4 @@
     ./.gitignore-create.bat
     ```
 
-3. done
+3. 完成
